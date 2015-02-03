@@ -28,9 +28,17 @@ margin: 0 12%;
 #menu {
   display:none;
 }
+#menu4 {
+    display:none;
+}
 #menu-contact {
   display:none;
 }
+#dd {
+    text-align: center;
+}
+
+
 .floatnav{
   position: relative;
   float: left;
