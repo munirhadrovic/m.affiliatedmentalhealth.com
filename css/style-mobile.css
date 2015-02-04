@@ -1,6 +1,7 @@
 /*.buttons-semir{
 	text-align: center;
 }
+
 .buttons-semir a{
 	text-decoration: none;
 	font-weight: 600;
@@ -28,7 +29,34 @@ margin: 0 12%;
 #menu {
   display:none;
 }
+#menu1 {
+    display:none;
+}
+#menu2 {
+    display:none;
+}
+#menu3 {
+    display:none;
+}
 #menu4 {
+    display:none;
+}
+#menu4a {
+    display:none;
+}
+#menu5 {
+     display:none;
+ }
+#menu5a {
+    display:none;
+}
+#menu6a {
+    display:none;
+}
+#menu6 {
+    display:none;
+}
+#menu7 {
     display:none;
 }
 #menu-contact {
@@ -36,6 +64,30 @@ margin: 0 12%;
 }
 #dd {
     text-align: center;
+}
+#directions {
+    text-align: center;
+}
+#direct {
+    text-align: center;
+
+}
+#direction {
+    text-align: center;
+}
+#content {
+   text-align: center;
+
+}
+
+
+#content {
+     line-height: 1.2em;
+}
+#a{
+    text-align: center;
+
+
 }
 
 
@@ -53,7 +105,7 @@ margin: 0 12%;
 	padding: 0px 3%;		
 }
 .buttons-radius{
-	border-radius: 5px; 
+	border-radius: 80px;
 }
 input#contact-submit-dugme {
   margin-right: 0px !important;
