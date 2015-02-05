@@ -82,6 +82,21 @@
                     prependTo:'#navigation-menu7'
                 });
             });
+            $(function(){
+                $('#menu8').slicknav({
+                    prependTo:'#navigation-menu8'
+                });
+            });
+            $(function(){
+                $('#menu9').slicknav({
+                    prependTo:'#navigation-menu9'
+                });
+            });
+            $(function(){
+                $('#menu10').slicknav({
+                    prependTo:'#navigation-menu10'
+                });
+            });
 			$(function(){
 				$('#menu-contact').slicknav({
 					prependTo:'#navigation-menu-contact'
@@ -152,7 +167,7 @@
 			// echo "<script type='text/javascript'>alert('$transitionefect')</script>";
 		?>
 		<div id="header-image" data-role="header" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1><img src="img/logo.jpg" alt="LOGO"></h1>
+		    <h1><img src="img/logo1.png" alt="LOGO"></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
 		    <h1>Mobile Site<a href="http://marketrivals.com" rel="external">  Clasic Site</a></h1>
@@ -174,7 +189,7 @@
 				        <!-- <p class="caption">This is another caption</p> -->
 				      </li>
 				      <li>
-				        <img src="img/slider-images/slide3.jpg" alt="">
+				        <img src="img/slider-images/slide31.jpg" alt="">
 				        <!-- <p class="caption">The third caption</p> -->
 				      </li>
 				    </ul>
@@ -382,7 +397,7 @@
                         </ul>
                     </section>
                     <section id="prvi">
-                    <img src="img/web-design/service.jpg" alt="SLider" class="images-mobile">
+
                     <div id="content">
                         <h2>Mental Health Assessment and Evaluation</h2>
                         <p>At AMHP, we believe that each person has the right to dignity, compassion, respect and self determination.
@@ -417,7 +432,7 @@
                             office and at home as indicated.  Coordination of care with all medical providers and family is an essential and valued part of our
                             care with older adults.
                         </p>
-                        <p><a href="geriatric_care.html">more information about geriatric care</a>
+                        <p><a href="#care">more information about geriatric care</a>
                         </p>
                         <h1>Medication</h1>
                         <p>AMHP provides referrals to psychiatrists to assess the need for medication.  If the client has a psychiatrist,
@@ -432,6 +447,79 @@
 
         </div>
         <!--page1 Mental Health Assessment and Evaluation ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--care //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////--->
+
+        <div data-role="page" id="care" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu8">
+                        <ul id="menu8">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Our Staff</a></li>
+                            <li><a href="#page7" data-transition="<?php echo $transitionefect ?>">About Us</a></li>
+                            <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">Directions</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
+                        </ul>
+                    </section>
+
+                        <div id="care">
+                            <h2>Geriatric Care</h2>
+                            <p>AMHP assists seniors to live successfully in the familiar settings of their own homes,
+                                assisted living situations and other facilities.  Our mental health expertise enhances our services
+                                to adults with long-term mental health problems, and/or dementias including Alzheimer’s disease.
+                            </p>
+                            <h1>Specialized Services</h1>
+                            <p>We provide the following services for geriatric care:</p>
+                            <ul>
+                                <li><a href="#prvi1">Assessment and evaluation</a> of current care and future options</li>
+                                <li>Guidance and consultation services for clients, families, and caregivers</li>
+                                <li>24-hour emergency telephone service</li>
+                                <li><a href="#drugi2">Coordination of care</a> with other professionals</li>
+                                <li><a href="#cetvrti4">Mental health treatment</a></li>
+                                <li><a href="#cetvrti4">Supportive counseling</a> for a wide variety of issues, including terminal illnesses</li>
+                                <li><a href="#drugi2">Payee services</a></li>
+                                <li><a href="#drugi2">Monitoring of in-home care</a></li>
+                                <li><a href="#drugi2">Housing placement</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!--care //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!--page2  Long-term Care Coordination///////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
         <div data-role="page" id="drugi2" data-theme="<?php echo $theme ?>">
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
@@ -446,7 +534,7 @@
                             <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
                         </ul>
                     </section>
-                    <img src="img/web-design/service.jpg" alt="SLider" class="images-mobile">
+
                         <section id="drugi"   >
                             <div id="content">
                                 <h2>Long-term Care Coordination</h2>
@@ -724,7 +812,7 @@
         <!--page 6a Services For Those With Medical Issues/////////////////////////////////////////////////////////////////////////////////////////////////-->
 
 
-        <!--page 5///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--page 5 Our Staff///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
         <div data-role="page" id="page5" data-theme="<?php echo $theme ?>">
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
@@ -737,89 +825,190 @@
                             <li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
                         </ul>
                     </section>
-                    <section id="our">
-                             <h1 id="dd">Our Staff</h1>
-                        <h2>Director</h2>
-                        <img src="img/web-design/janny.jpg" width="100" alt="Janny Becker" >
-                            <h4>Janny Becker</h4>
-                            <p>
-                                Janny founded AMHP in 1988 after 21 years of working with the chronically mentally ill in the public system.    During those years, she worked in in-patient hospitals, community mental health centers, residential group homes, and intensive case management.  On the 40th anniversary of her career, she retired in February 2008, but continues to provide oversight and consultation to the agency.
-                            </p>
-                            <h3>Education</h3>
-                            <ul>
-                                <li>Seattle University, master's candidate in Public Administration, 1986 -1988</li>
-                                <li>Columbia University, NYC, B. S., Occupational Therapy 1968</li>
-                                <li>University of Washington, Seattle, Political Science and Occupational Therapy 1961 - 1964</li>
-                            </ul>
+                    <section id="paa">
+                        <tbody> <tr id="Janny">
+                            <td>
+                                <h1>Director</h1>
+                                <img class="bio" src="img/web-design/janny.jpg" width="100" alt="Janny Becker">
+                                <h4>Janny Becker</h4>
+                                <ul><li>
+                                    Janny founded AMHP in 1988 after 21 years of working with the chronically mentally ill in the public system.
 
-                            <h3>Certification/License</h3>
-                            <ul>
-                                <li>National Certification with American Occupational Therapy Association 1968 - 2008, Sustaining member, retired, 2008 to 2010.</li>
-                                <li>State of Washington, Licensed Occupational Therapist, 1972 -2008</li>
-                            </ul>
+                                    During those years, she worked in in-patient hospitals, community mental health centers, residential group homes,
+                                    and intensive case management.  On the 40th anniversary of her career, she retired in February 2008, but continues
+                                    to provide oversight and consultation to the agency.
+                                </li></ul>
+                                <h3>Education</h3>
+                                <ul>
+                                    <li>Seattle University, master's candidate in Public Administration, 1986 -1988</li>
+                                    <li>Columbia University, NYC, B. S., Occupational Therapy 1968</li>
+                                    <li>University of Washington, Seattle, Political Science and Occupational Therapy 1961 - 1964</li>
+                                </ul>
 
-                            <h3>Associations</h3>
-                            <ul>
-                                <li>American Occupational Therapy Association</li>
-                                <li>Washington State Occupational Therapy Association</li>
-                                <li>Washington State Day Treatment Association, Treasurer, Chair for 1977 Day Treatment Washington State annual Conference</li>
-                            </ul>
+                                <h3>Certification/License</h3>
+                                <ul>
+                                    <li>National Certification with American Occupational Therapy Association 1968 - 2008, Sustaining member, retired, 2008 to 2010.</li>
+                                    <li>State of Washington, Licensed Occupational Therapist, 1972 -2008</li>
+                                </ul>
 
-                            <h3>Community Service</h3>
-                            <ul>
-                                <li>504/ADA Committee, King County, member, Chairperson, 1989-1995</li>
-                                <li>Advisory Committee to King Co. Executive for the Disabled, 1990-1994</li>
-                                <li>King County Commisioner, on Human Rights Commission representing the Disabled, 1994-1996</li>
-                                <li>King County Mental Health Quality Assurance  committee to KC Mental Health Board, member, 1995, co-chair, 1996-1998</li>
-                                <li>Seattle Counseling Services, member of Board, 1992-1994</li>
-                                <li>Eastside NAMI, member of Board, 2005-2006</li>
-                                <li>Founder and producer of the AIDS Prevention Theatre Troupe serving the mentally ill and young adults, 1990-2001</li>
-                            </ul>
+                                <h3>Associations</h3>
+                                <ul>
+                                    <li>American Occupational Therapy Association</li>
+                                    <li>Washington State Occupational Therapy Association</li>
+                                    <li>Washington State Day Treatment Association, Treasurer, Chair for 1977 Day Treatment Washington State annual Conference</li>
+                                </ul>
+
+                                <h3>Community Service</h3>
+                                <ul>
+                                    <li>504/ADA Committee, King County, member, Chairperson, 1989-1995</li>
+                                    <li>Advisory Committee to King Co. Executive for the Disabled, 1990-1994</li>
+                                    <li>King County Commisioner, on Human Rights Commission representing the Disabled, 1994-1996</li>
+                                    <li>King County Mental Health Quality Assurance  committee to KC Mental Health Board, member, 1995, co-chair, 1996-1998</li>
+                                    <li>Seattle Counseling Services, member of Board, 1992-1994</li>
+                                    <li>Eastside NAMI, member of Board, 2005-2006</li>
+                                    <li>Founder and producer of the AIDS Prevention Theatre Troupe serving the mentally ill and young adults, 1990-2001</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <h3>Specialties</h3>
+                                <p>
+                                    Program development, psychodrama, group therapy, counseling for management of bi-polar disorder
+                                </p>
+                                <h3>Philosophy</h3>
+                                <p>
+                                    <i>The basis of care coordination and counseling is to develop a collaborative relationship with the client toward  Improving their general quality of life by supporting the management of mental health, promoting  productive activities and advocating for the respect and dignity of the client in the community.</i>
+                                </p>
+                                <h3>Personal Interests</h3>
+                                <p>
+                                    Enjoying my dogs, Charlie and  Coco Chanel and cat "Ms. Kitty". Studying Ikebana (Japanese flower arranging), reading fiction and non fiction, studying ancient history, classical piano, oil painting, puttering in my gardens, and visiting Mexico.
+                                </p>
+                            </td>
+                        </tr>
+                        </tbody>
 
 
-                        <h4>Janny Becker</h4>
-                        <p>Janny founded AMHP in 1988 after 21 years of working with the chronically mentally ill in the public system.
-                            During those years, she worked in in-patient hospitals, community mental health centers, residential group homes,
-                            and intensive case management. On the 40th anniversary of her career, she retired in February 2008, but continues
-                            to provide oversight and consultation to the agency.</p>
-                        <h3>Education</h3>
+
+                        <h1>Clinical Director</h1>
+
+                            <tbody><tr id="Jerry">
+                                <td>
+                                    <img class="bio" src="img/web-design/jerry.jpg" width="100" alt="Jerry Hagen">
+                                    <h4>Jerry Hagen, MSW, LICSW</h4>
+                                    <p>
+                                        Jerry has 30 years of professional social work experience. His career includes 22 years with the Department of Veteran Affairs in Seattle and Hawaii. Most recently, he was the Team Leader of the VA’s Mental Health Intensive Case Management Program from 1994 – 2006. He has wide-ranging experience in program development and administration as well as direct service. Specialty areas have included chemical dependency treatment, acute day hospital, emergency room services, and outpatient psychiatry.
+                                    </p>
+                                    <h3>Education</h3>
+                                    <ul>
+                                        <li>Master of Social Work<br>
+                                            University of Hawaii, 1976</li>
+                                        <li>BA Psychology<br>
+                                            University of Washington, 1975</li>
+                                    </ul>
+                                    <h3>Certification/License</h3>
+                                    <p>
+                                        Licensed Independent Clinical Social Worker
+                                    </p>
+                                </td>
+                                <td>
+
+                                    <h3 class="right">Specialties</h3>
+                                    <p>
+                                        Individual case management, psychotherapy, group therapy
+                                    </p>
+                                    <h3>Philosophy</h3>
+                                    <p>
+                                        <i>I believe that establishing a healthy balanced lifestyle is essential for laying the groundwork for meaningful change.  Supportive care can make a significant impact on people's lives and help them achieve their greatest potential in community living.
+                                        </i>
+                                    </p>
+                                    <h3>Personal interests</h3>
+                                    <p>
+                                        Spending time with his wife of 20 years and his adopted cat Roxy.  Working on home rehab projects, walking, jogging and going to the gym.
+                                    </p>
+                                </td>
+                            </tr>
+                            </tbody>
+                    <h1>Care Coordinators</h1>
+                        <tbody><tr>
+                            <td>
+                                <img class="bio" src="img/web-design/Denise.JPG" width="100" alt="Denise Ascolesi">
+                                <h4>Denise Ascolesi, MA, LCPC</h4>
+                                <p>Denise has 13 years of experience working with adults with chronic and persistent mental illness,
+                                    through case management, crisis intervention and therapeutic support. She has worked in both residential
+                                    and outpatient environments, has directed psychiatric rehabilitation services in Chicago and has conducted
+                                    emergency department assessments. Additionally, Denise has experience with clients with dual diagnosis, personality disorders and has facilitated program development in residential treatment setting.
+                                </p>
+                                <h3>Education</h3>
+                                <p>BA Sociology<br>
+                                    UC Santa Barbara, 2000<br>
+                                </p><p> MA Community Counseling<br>
+                                    Argosy University, Chicago, 2007
+                                </p>
+                                <h3>Certification/License</h3>
+                                <p>Licensed clinical professional      counselor,National certified counselor
+                                </p>
+                                <h3 class="right">Specialties</h3>
+                                <p>Case management of chronically mentally ill, crisis management, personality disorders, outpatient group psychotherapy
+                                </p>
+                                <h3>Philosophy</h3>
+                                <p><i>Empowering each individual to achieve his or her goals through support, encouragement and the
+                                        therapeutic relationship in order to live a life that is personally meaningful and rewarding.
+                                    </i></p>
+                                <h3>Personal interests</h3>
+                                <p>
+                                    Living life to the fullest through new experiences, travel and being open to learning each day.
+                                    Spending time with family and friends, and taking care of myself through daily walks, warm baths and a good book.
+                                </p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    <h4>Cynthia Hale, BA, CC</h4>
+                    <img class="bio" src="img/web-design/cynthia.jpg" width="100" alt="Cynthia Hale">
+                    <p>Cynthia has 12 years experience with diverse populations providing comprehensive therapeutic and community support.
+                        She has training in geriatrics, crisis management, eating disorders, mood disorders and psychopharmacology.
+                        Cynthia has a passion for seeing that older adults'
+                        physical and emotional needs are met and has done extensive advocacy on their behalf.</p>
+                    <p>Prior to working at AMHP, she worked at the Community House Mental Health Agency for ten years, and as a residential
+                        counselor at Cascade Hall, Seattle. She also worked as an instructor for Creative Living Services, Seattle,
+                        supporting adults with developmental disabilities with life and social skills.</p>
+                    <h3>Education</h3>
+                    <ul><li>BA Liberal arts
+                    <br>
+                    Evergreen State College, 1990</li></ul>
+
+                    <h3>Certification/License</h3>
                         <ul>
-                            <li>Columbia University, NYC, B. S., Occupational Therapy 1968</li>
-                            <li>University of Washington, Seattle, Political Science and Occupational Therapy 1961 - 1964</li>
-                        </ul>
-                        <ul>
-                            <h3>Certification/License</h3>
-                            <li>National Certification with American Occupational Therapy Association 1968 - 2008, Sustaining member, retired, 2008 to 2010.</li>
-                            <li>State of Washington, Licensed Occupational Therapist, 1972 -2008</li>
-                        </ul>
-                        <h3>Associations</h3>
-                        <ul>
-                            <li>American Occupational Therapy Association</li>
-                            <li>Washington State Occupational Therapy Association</li>
-                            <li>Washington State Day Treatment Association, Treasurer, Chair for 1977 Day Treatment Washington State annual Conference</li>>
-                        </ul>>
-                        <h3>Community Service</h3>
-                        <ul>
-                            <li>504/ADA Committee, King County, member, Chairperson, 1989-1995</li>
-                            <li>Advisory Committee to King Co. Executive for the Disabled, 1990-1994</li>
-                            <li>King County Commisioner, on Human Rights Commission representing the Disabled, 1994-1996</li>
-                            <li>King County Mental Health Quality Assurance  committee to KC Mental Health Board, member, 1995, co-chair, 1996-1998</li>
-                            <li>Seattle Counseling Services, member of Board, 1992-1994</li>
-                            <li>Eastside NAMI, member of Board, 2005-2006</li>
-                            <li>Founder and producer of the AIDS Prevention Theatre Troupe serving the mentally ill and young adults, 1990-2001
-                            </li>
-                        </ul>
+                    <li>Washington State Certified Counselor</li></ul>
+
+                    <h3>Associations</h3>
+                    <ul><li>
+                        Alzheimers Association
+                    </li></ul>
+                    <h3>Community Service</h3>
+                    <ul>
+                        <li>Day treatment team member (volunteer) at Community House Mental Health Agency, Seattle</li>
+                        Program Assistant (volunteer) at Heart of Glass Foundation, Seattle, developing curriculum using art, music,
+                        photography and dance for program for teens living with HIV/AIDS.
+                    <li>Group Facilitator for an arts and a womens group</li></ul>
+                    <h3>Specialties</h3>
+                    <ul>
+                    <li>Chronically Mentally Ill Case Management, Geriatrics</li></ul>
+                    <h3>Philosophy</h3>
+                    <ul><li><i>To support others to live a full and rich life and to help improve their quality
+                               of life through comprehensive care and by improving social relationships.
+                    </i></li></ul>
+                    </p>
+                    <h3>Personal interests</h3>
+                    <ul><li>
+                        Spending time with family and friends, yoga, gardening, cooking as an art, and being in nature.
+                    </li></ul>
 
 
-
-
-
-                             </section>
+                    </section>
                 </div>
 
             </div>
         </div>
-        <!--page 5///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--page 5 Our Staff///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
         <!--page 6///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
         <div data-role="page" id="page6" data-theme="<?php echo $theme ?>">
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
@@ -873,6 +1062,7 @@
 
 
         <!--page 6///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--page About as///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
         <div data-role="page" id="page7" data-theme="<?php echo $theme ?>">
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
@@ -885,53 +1075,89 @@
                             <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
                         </ul>
                     </section>
-                    <section id="section">
-                        <div id="content">
-                        <h2>About AMHP</h2>
-                        <h1>History</h1>
-                        <p>
-                            Affiliated Mental Health Programs, Inc, was founded on September 1, 1988 to provide
-                            <a href="long_term_care_coordination.html">intensive case management</a>
-                            to people with severe and chronic mental health issues under the original name of Case Management Services, Inc.
-                            The agency name was changed in 1994 to Affiliated Mental Health Programs, Inc (AMHP) as the agency expanded services
-                            from intensive case management only, to also providing individual, group and family counseling.  As the need for chemical
-                            dependency services became evident, AMHP added a credentialed chemical dependency counselor to the staff.  From 1988 to 1992,
-                            AMHP provided pro bono intensive case management services to the mentally ill with AIDS.
-                        </p>
-                        <p>
-                            As an agency, AMHP is able to provide an assigned therapist with additional backup coverage in the event the assigned therapist is not available.
-                            For this reason the staff works as a team which also provides rotating coverage for 24/7 on-call and outreach emergency services.
-                            Case loads are limited as the agency values a working environment that is supportive of high quality client care. In our experience,
-                            when families are available and engaged as part of the treatment team, the potential for a positive outcome is increased for the client.
-                        </p>
-                        <p>
-                            AMHP is a private, fee for service, provider.  We maintain competitive rates and our fee schedule is available upon request.
-                        </p>
-                        <h1>Our Philosophy of Care</h1>
-                        <p>
-                            Having worked in the public system for 21 years, Janny Becker, AMHP founder and owner, identified basic factors that promote quality care for people
-                            with major mental health issues.  The administrative staff at AMHP ensures a working environment that is supportive and respectful to staff,
-                            where clinicians have the opportunity to grow professionally with consistent supervision.  The staff works as a team, attending bi-weekly staff
-                            meetings for client review and clinical consultation and to ensure informed crisis coverage on a rotating schedule.  Caseloads are kept at a
-                            manageable level, capped at no more than 14 clients for any individual care coordinator/counselor.  It is essential that the staff hired has
-                            training and experience appropriate to working with our designated population.  Also important, is providing pay that is competitive to other
-                            mental health agencies in the Seattle area.
-                        </p>
-                        <p>
-                            The staff at AMHP acknowledges the difficulties for any family with a mentally ill relative.  We recognize that mental illness has many causes
-                            and provide a supportive and non-judgmental approach towards helping families deal with these serious issues.  Research indicates that family
-                            involvement improves the prognosis for the identified client.  Therefore, we welcome relatives as active members of the treatment team, and
-                            offer family counseling to help clarify goals and set limits when necessary to reduce stress and promote healing for the family as a whole.
-                            Our 24 hour telephone crisis line is responsive to family members as well as to the client.  Individual counseling is also available to family
-                            members as part of our offered services.
-                        </p>
+                    <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#history" data-transition="<?php echo $transitionefect ?>">History</a></div>
+                    </div>
+                    <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page6" data-transition="<?php echo $transitionefect ?>">Contact</a></div>
+                    </div>
+                    <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page6" data-transition="<?php echo $transitionefect ?>">Location</a></div>
+                    </div>
+                    <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#employment" data-transition="<?php echo $transitionefect ?>">Employment</a></div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <!--page About as///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!--History///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div data-role="page" id="history" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu10">
+                        <ul id="menu10">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Our Staff</a></li>
+                            <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">Directions</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
+                        </ul>
+                    </section>
+                    <section id="a">
+                        <div>
+                            <h2>About AMHP</h2>
+                            <h1>History</h1>
+                            <p>
+                                Affiliated Mental Health Programs, Inc, was founded on September 1, 1988 to provide
+                                <a href="#drugi2">intensive case management</a>
+                                to people with severe and chronic mental health issues under the original name of Case Management Services, Inc.
+                                The agency name was changed in 1994 to Affiliated Mental Health Programs, Inc (AMHP) as the agency expanded services
+                                from intensive case management only, to also providing individual, group and family counseling.  As the need for chemical
+                                dependency services became evident, AMHP added a credentialed chemical dependency counselor to the staff.  From 1988 to 1992,
+                                AMHP provided pro bono intensive case management services to the mentally ill with AIDS.
+                            </p>
+                            <p>
+                                As an agency, AMHP is able to provide an assigned therapist with additional backup coverage in the event the assigned therapist is not available.
+                                For this reason the staff works as a team which also provides rotating coverage for 24/7 on-call and outreach emergency services.
+                                Case loads are limited as the agency values a working environment that is supportive of high quality client care. In our experience,
+                                when families are available and engaged as part of the treatment team, the potential for a positive outcome is increased for the client.
+                            </p>
+                            <p>
+                                AMHP is a private, fee for service, provider.  We maintain competitive rates and our fee schedule is available upon request.
+                            </p>
+                            <h1>Our Philosophy of Care</h1>
+                            <p>
+                                Having worked in the public system for 21 years, Janny Becker, AMHP founder and owner, identified basic factors that promote quality care for people
+                                with major mental health issues.  The administrative staff at AMHP ensures a working environment that is supportive and respectful to staff,
+                                where clinicians have the opportunity to grow professionally with consistent supervision.  The staff works as a team, attending bi-weekly staff
+                                meetings for client review and clinical consultation and to ensure informed crisis coverage on a rotating schedule.  Caseloads are kept at a
+                                manageable level, capped at no more than 14 clients for any individual care coordinator/counselor.  It is essential that the staff hired has
+                                training and experience appropriate to working with our designated population.  Also important, is providing pay that is competitive to other
+                                mental health agencies in the Seattle area.
+                            </p>
+                            <p>
+                                The staff at AMHP acknowledges the difficulties for any family with a mentally ill relative.  We recognize that mental illness has many causes
+                                and provide a supportive and non-judgmental approach towards helping families deal with these serious issues.  Research indicates that family
+                                involvement improves the prognosis for the identified client.  Therefore, we welcome relatives as active members of the treatment team, and
+                                offer family counseling to help clarify goals and set limits when necessary to reduce stress and promote healing for the family as a whole.
+                                Our 24 hour telephone crisis line is responsive to family members as well as to the client.  Individual counseling is also available to family
+                                members as part of our offered services.
+                            </p>
 
 
 
 
                     </section>
 
-                               </div>
+
+
                 </div>
 
             </div>
@@ -940,6 +1166,42 @@
         </div>
 
 
+
+
+
+
+        <!--History/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--Employment/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div data-role="page" id="employment" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu10">
+                        <ul id="menu10">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Our Staff</a></li>
+                            <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">Directions</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
+                        </ul>
+                    </section>
+                    <div id="dd"
+                    <h2>Employment Opportunities</h1=2>
+                    <h1>Current Job Oppenings</h1>
+                    <p>AMHP does not currently have any job openings.</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+        <!--Employment/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
         <!--page succes ends here///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<div id="error" data-role="page" data-dialog="true">
 		

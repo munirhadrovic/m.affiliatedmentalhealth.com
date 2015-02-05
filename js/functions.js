@@ -28,7 +28,7 @@ if (stranica[stranica.length - 1] === "#page2") {
 	var slika2 = document.createElement('div');
 	slika2.setAttribute('id', "slideshow-slika-2");
 	slika2.setAttribute('class', "slideShowSlika cf slika-desno");
-	slika2.style.background = "url('img/web-design/slide3.jpg') center center no-repeat";
+	slika2.style.background = "url('img/web-design/slide31.jpg') center center no-repeat";
 	slika2.style.backgroundSize="contain";
 	slika2.style.width="70%"
 	slideshow.appendChild(slika2);
