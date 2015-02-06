@@ -368,7 +368,7 @@
                         <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#sesti" data-transition="<?php echo $transitionefect ?>">Services For Those With Medical Issues</a></div>
                     </div>
                     <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page" data-transition="<?php echo $transitionefect ?>">Groups and Meetings</a></div>
+                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#sedmi" data-transition="<?php echo $transitionefect ?>">Groups and Meetings</a></div>
                     </div>
 
 
@@ -810,6 +810,104 @@
 
         </div>
         <!--page 6a Services For Those With Medical Issues/////////////////////////////////////////////////////////////////////////////////////////////////-->
+        <!--Groups and Meetings//////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+        <div data-role="page" id="sedmi" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu10">
+                        <ul id="menu10">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Home</a></li>
+                            <li><a href="#page4" data-transition="<?php echo $transitionefect ?>">Services</a></li>
+                            <li><a href="#page5" data-transition="<?php echo $transitionefect ?>">Our Staff</a></li>
+                            <li><a href="#page7" data-transition="<?php echo $transitionefect ?>">About Us</a></li>
+                            <li><a href="#page6" data-transition="<?php echo $transitionefect ?>">Directions</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
+                        </ul>
+                    </section>
+                    <div>
+
+                        <h2 id="dd">Groups and Meetings</h2>
+
+                        <p><b>Current Groups and Meetings</b></p>
+                        <ul>
+                            <li>
+                                <a href="#sedmi">Co-Occuring Disorders Group Counseling</a><br>
+                                For out-patients dealing with both mental health and chemical dependancy issues.
+                            </li>
+                        </ul>
+
+                                <h1">Co-Occuring Disorders Group Counseling (For Out Patients)</h1>
+                        <br>
+                        <br>
+                        <b>Starting in September, 2010</b>
+                        <br><br>
+                        <table>
+                            <tbody><tr>
+                                <td>
+                                    Counselor:
+                                </td>
+                                <td>
+                                    Fred Bowens, LMHCA, CDP
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Where:
+                                </td>
+                                <td>
+                                    Affiliated Mental Health Programs offices<br>
+                                    115 15th Ave E, Suite 201<br>
+                                    Seattle, WA  98112<br>
+                                    <br>
+                                    (Capitol Hill, Seattle between Denny &amp; John)<br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    When:
+                                </td>
+                                <td>
+                                    Once a week—day and time TBD<br>
+                                    Open for referrals now<br>
+                                    Groups begin in September, 2010<br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>	To Register (or for more information):
+                                </td>
+                                <td>
+                                    Email: <a href="mailto:fbowens@amhpseattle.com">fbowens@amhpseattle.com</a>
+                                    Phone: 206-322-5258 ext. 6
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Fee:
+                                </td>
+                                <td>
+                                    $65 per hour
+                                </td>
+                            </tr>
+                            </tbody></table>
+                        <br>
+                        <p>Fred Bowens has 25 years experience working with co-occurring disorders. He has led groups at Harborview, Highline West Seattle Hospital (Navos), Community Chemical Dependency programs, and at Affiliated Mental Health Programs. Fred is licensed as both a Mental Health Professional and a Chemical Dependency Professional.
+                        </p>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+        <!--Groups and Meetings//////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
 
         <!--page 5 Our Staff///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -1009,7 +1107,7 @@
             </div>
         </div>
         <!--page 5 Our Staff///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-        <!--page 6///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--page 6 Direction///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
         <div data-role="page" id="page6" data-theme="<?php echo $theme ?>">
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
@@ -1061,7 +1159,7 @@
         </div>
 
 
-        <!--page 6///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <!--page 6 Direction///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
         <!--page About as///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
         <div data-role="page" id="page7" data-theme="<?php echo $theme ?>">
             <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
@@ -1185,7 +1283,7 @@
                         </ul>
                     </section>
                     <div id="dd"
-                    <h2>Employment Opportunities</h1=2>
+                    <h2>Employment Opportunities</h2>
                     <h1>Current Job Oppenings</h1>
                     <p>AMHP does not currently have any job openings.</p>
                     </div>
