@@ -170,7 +170,7 @@
 		    <h1><img src="img/logo1.png" alt="LOGO"></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1>Mobile Site<a href="http://marketrivals.com" rel="external">  Clasic Site</a></h1>
+            <h1>Powered by <a href="http://mobilegrows.com/">MobileGrows </a>|<a href="http://affiliatedmentalhealth.com/" rel="external"> Desktop Site</a></h1>
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<div data-role="page" id="page1" data-theme="<?php echo $theme ?>">
@@ -350,25 +350,25 @@
                         </ul>
                     </section>
                     <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#prvi1" data-transition="<?php echo $transitionefect ?>">Mental Health Assessment and Evaluation</a></div>
+                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#prvi1" data-transition="<?php echo $transitionefect ?>">Cynthia Hays, PHD PC</a></div>
                     </div>
                     <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#drugi2" data-transition="<?php echo $transitionefect ?>">Long-term Care Coordination</a></div>
+                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#drugi2" data-transition="<?php echo $transitionefect ?>">Services</a></div>
                     </div>
                     <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#treci3" data-transition="<?php echo $transitionefect ?>">Senior Services</a></div>
+                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#treci3" data-transition="<?php echo $transitionefect ?>">Sheduling</a></div>
                     </div>
                     <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#cetvrti4" data-transition="<?php echo $transitionefect ?>">Mental Health Counseling</a></div>
+                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#cetvrti4" data-transition="<?php echo $transitionefect ?>">Fees</a></div>
                     </div>
                     <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#peti" data-transition="<?php echo $transitionefect ?>">Specialized Services for High Functioning Autism and Asperger's Syndrome</a></div>
+                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#peti" data-transition="<?php echo $transitionefect ?>">About US</a></div>
                     </div>
                     <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#sesti" data-transition="<?php echo $transitionefect ?>">Services For Those With Medical Issues</a></div>
+                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#sesti" data-transition="<?php echo $transitionefect ?>">FAQs</a></div>
                     </div>
                     <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#sedmi" data-transition="<?php echo $transitionefect ?>">Groups and Meetings</a></div>
+                        <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#sedmi" data-transition="<?php echo $transitionefect ?>">Interesting links</a></div>
                     </div>
 
 
